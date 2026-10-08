@@ -1,0 +1,13 @@
+name: Hello word!
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  hello_word_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: say hello
+        run: |
+          echo "hello word"
