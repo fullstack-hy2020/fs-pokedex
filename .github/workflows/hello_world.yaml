@@ -3,7 +3,10 @@ name: Deployment Pipeline
 on: 
   push:
     branches:
-      - main
+        - main
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize]
 
 jobs: 
   deployment-pipeline:
