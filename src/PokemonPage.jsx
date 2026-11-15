@@ -56,6 +56,9 @@ const PokemonPage = ({ previous, next }) => {
           </div>
         </div>
       </div>
+      <div>
+        <p>Pokemon update</p>
+      </div>
     </>
   )
 }
